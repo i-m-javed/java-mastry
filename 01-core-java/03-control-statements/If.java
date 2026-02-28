@@ -6,5 +6,4 @@ public class If {
             System.out.println("Eligible to vote");
         }
   }
-  
 }
