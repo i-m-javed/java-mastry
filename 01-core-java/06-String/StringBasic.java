@@ -1,0 +1,13 @@
+public class StringBasic {
+  public static void main(String[] args) {
+      String str = "Hello";
+        str.concat(" World");
+
+        System.out.println(str);  // Hello
+
+        str = str.concat(" World");
+        System.out.println(str);  // Hello World
+
+        
+  }
+}
