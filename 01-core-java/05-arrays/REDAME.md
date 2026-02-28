@@ -7,8 +7,5 @@ Topics Covered:
 - Sum & average
 - Min & max
 - Searching
-- Sorting (basic)
 - 2D arrays
-
-
-
+- passing array
