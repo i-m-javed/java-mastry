@@ -217,7 +217,7 @@ Fail-fast only triggers on structural modification.
 
 ---
 
-# 6. modCount – Interview Favorite
+# 6. modCount – important
 
 `modCount` detects unsafe concurrent modification.
 
@@ -241,18 +241,6 @@ LinkedList preferred for:
 CopyOnWriteArrayList preferred for:
 ✔ Read-heavy concurrent systems  
 ❌ Not suitable for write-heavy systems
-
----
-
-# 8. Interview Questions
-
-1. What is fail-fast?
-2. How does modCount work?
-3. Is fail-fast thread-safe?
-4. What is difference between structural and non-structural modification?
-5. Why is CopyOnWriteArrayList expensive for writes?
-6. Difference between ArrayList and LinkedList?
-7. Why does removing element inside for-each throw exception?
 
 ---
 
