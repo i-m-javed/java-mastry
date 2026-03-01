@@ -44,6 +44,7 @@ class GenericUtil {
 
 public class GenericTypes {
 
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     public static void main(String[] args) {
 
         System.out.println("==== GENERIC CLASS DEMO ====");
@@ -76,16 +77,16 @@ public class GenericTypes {
             System.out.println(item);
         }
 
-        // System.out.println("\n==== RAW TYPE WARNING DEMO ====");
-        // List rawList = new ArrayList();
-        // rawList.add("Unsafe");
-        // rawList.add(100); // No compile-time error
+        System.out.println("\n==== RAW TYPE WARNING DEMO ====");
+        List rawList = new ArrayList();
+        rawList.add("Unsafe");
+        rawList.add(100); // No compile-time error
 
-        // try {
-        //     String value = (String) rawList.get(1); // Runtime failure
-        //     System.out.println(value);
-        // } catch (ClassCastException e) {
-        //     System.out.println("Raw type caused ClassCastException!");
-        // }
+        try {
+            String value = (String) rawList.get(1); // Runtime failure
+            System.out.println(value);
+        } catch (ClassCastException e) {
+            System.out.println("Raw type caused ClassCastException!");
+        }
     }
 }
