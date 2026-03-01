@@ -1,4 +1,4 @@
-# Java Set Interface – Internal Working (HashSet, LinkedHashSet, TreeSet)
+# Java Set Interface – HashSet, LinkedHashSet, TreeSet
 
 ## 1. Introduction
 
@@ -231,7 +231,7 @@ Iterators detect structural modification using modCount.
 
 ---
 
-# 11. Production Design Insight
+# 10. Production Design Insight
 
 HashSet is used in:
 
