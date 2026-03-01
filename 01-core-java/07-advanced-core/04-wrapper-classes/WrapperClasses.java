@@ -42,10 +42,10 @@ public class WrapperClasses {
 
     // Shows dangerous auto-unboxing behavior
     private static void autoUnboxingRiskTest() {
-        Integer nullableValue = null;
+        // Integer nullableValue = null;
 
         try {
-            int primitive = nullableValue; // Causes NPE
+            // int primitive = nullableValue;
         } catch (NullPointerException e) {
             System.out.println("Auto-unboxing triggered NullPointerException!");
         }
@@ -70,6 +70,9 @@ public class WrapperClasses {
         for (int i = 0; i < 1_000_000; i++) {
             sumPrimitive += i;
         }
+
+        System.out.println(sumPrimitive);
+
         long endPrimitive = System.nanoTime();
 
         long startWrapper = System.nanoTime();
