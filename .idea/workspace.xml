@@ -5,36 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b7acbe8-317b-4532-93d6-e60289a2ee48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-junit5/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/capgemini-training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/capgemini-training.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/src/main/java/com/capgemini/learning/Calc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/src/test/java/com/capgemini/learning/CalcTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/target/classes/com/capgemini/learning/Calc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/target/test-classes/com/capgemini/learning/CalcTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-02/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-02/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-02/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-02/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-02/bin/com/capgemini/learning/Calc2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-02/bin/com/capgemini/learning/Calc2Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-02/src/com/capgemini/learning/Calc2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-02/test/com/capgemini/learning/Calc2Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +17,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="package-info" />
+        <option value="module-info" />
       </list>
     </option>
   </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -79,9 +61,18 @@
     "last_opened_file_path": "/Users/mohammadjaved/Desktop/capgemini-training",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/09-junit5" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.tdd.fundamentals" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.CalculatorTest">
     <configuration name="DAOPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DAOPattern" />
