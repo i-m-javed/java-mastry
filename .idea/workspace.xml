@@ -5,77 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b7acbe8-317b-4532-93d6-e60289a2ee48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/01-basic/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/01-basic/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/01-basic/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/01-basic/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/01-basic/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/01-basic/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/01-basic/src/main/java/org/jdbc_steps/CONNECTION.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/01-basic/src/main/java/org/jdbc_steps/Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/01-basic/src/main/java/org/jdbc_steps/Fetch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/01-basic/src/main/java/org/jdbc_steps/Insert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/01-basic/src/main/java/org/jdbc_steps/MAIN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/01-basic/src/main/java/org/jdbc_steps/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/01-basic/src/main/java/org/jdbc_steps/PlayerDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/01-basic/src/main/java/org/jdbc_steps/Update.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/02-batch-processing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/02-batch-processing/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/02-batch-processing/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/02-batch-processing/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/02-batch-processing/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/02-batch-processing/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/02-batch-processing/src/main/java/org/dao/PlayerDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/02-batch-processing/src/main/java/org/dao/PlayerDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/02-batch-processing/src/main/java/org/entity/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/02-batch-processing/src/main/java/org/repository/PlayerRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/03-callable-statement/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/03-callable-statement/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/03-callable-statement/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/03-callable-statement/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/03-callable-statement/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/03-callable-statement/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/03-callable-statement/src/main/java/callable_and_storedprocedure/DatabaseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/03-callable-statement/src/main/java/callable_and_storedprocedure/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/03-callable-statement/src/main/java/callable_and_storedprocedure/Employees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/03-callable-statement/src/main/java/callable_and_storedprocedure/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/03-callable-statement/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/04-good-practice/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/04-good-practice/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/04-good-practice/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/04-good-practice/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/04-good-practice/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/04-good-practice/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/04-good-practice/src/main/java/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/04-good-practice/src/main/java/com/capgemini/dao/PlayerDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/04-good-practice/src/main/java/com/capgemini/dao/PlayerDAOImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/04-good-practice/src/main/java/com/capgemini/entity/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/04-good-practice/src/main/java/com/capgemini/repository/PlayerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/05-product-management/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/05-product-management/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/05-product-management/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/05-product-management/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/05-product-management/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/05-product-management/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/05-product-management/src/main/java/org/example/CONNECTION.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/05-product-management/src/main/java/org/example/CategoryReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/05-product-management/src/main/java/org/example/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/classroom/05-product-management/src/main/java/org/example/TASK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-jdbc/notes/01-introduction/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-junit/Junit-01/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-junit5/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/capgemini-training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/capgemini-training.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-jdbc/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/08-jdbc/classroom/02-batch-processing/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/09-junit/Junit-01/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/.project" beforeDir="false" afterPath="$PROJECT_DIR$/09-junit/Junit-01/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/09-junit/Junit-01/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/target/classes/META-INF/maven/com.capgemini.learning/Junit-01/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/target/classes/META-INF/maven/com.capgemini.learning/Junit-01/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/target/classes/com/capgemini/learning/Calc.class" beforeDir="false" afterPath="$PROJECT_DIR$/09-junit/Junit-01/target/classes/com/capgemini/learning/Calc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-junit/Junit-02/.project" beforeDir="false" afterPath="$PROJECT_DIR$/09-junit/Junit-02/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-architecture/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-design-pattern/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/src/main/java/com/capgemini/learning/Calc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/src/test/java/com/capgemini/learning/CalcTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/target/classes/com/capgemini/learning/Calc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-junit/Junit-01/target/test-classes/com/capgemini/learning/CalcTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-junit/Junit-02/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-junit/Junit-02/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-junit/Junit-02/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-junit/Junit-02/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-junit/Junit-02/bin/com/capgemini/learning/Calc2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-junit/Junit-02/bin/com/capgemini/learning/Calc2Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-junit/Junit-02/src/com/capgemini/learning/Calc2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-junit/Junit-02/test/com/capgemini/learning/Calc2Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-junit/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,23 +55,41 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="3AHj1RIWQYkWKKNaAsVBW5DDIHK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.MAIN.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mohammadjaved/Desktop/capgemini-training&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DAOPattern.executor": "Run",
+    "Application.JDBCIntroduction.executor": "Run",
+    "Application.MAIN.executor": "Run",
+    "JUnit.CalculatorTest.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mohammadjaved/Desktop/capgemini-training",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="JUnit.CalculatorTest">
+    <configuration name="DAOPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DAOPattern" />
+      <module name="capgemini-training" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JDBCIntroduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JDBCIntroduction" />
       <module name="capgemini-training" />
@@ -120,8 +97,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="09-junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.junit.introduction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.junit.introduction" />
+      <option name="MAIN_CLASS_NAME" value="org.junit.introduction.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="Application.DAOPattern" />
         <item itemvalue="Application.JDBCIntroduction" />
       </list>
     </recent_temporary>

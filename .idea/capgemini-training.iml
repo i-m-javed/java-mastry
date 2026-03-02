@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/08-jdbc/classroom/03-callable-statement/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/08-jdbc/classroom/04-good-practice/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/08-jdbc/classroom/05-product-management/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/08-jdbc/notes/05-dao-pattern" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
