@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9b7acbe8-317b-4532-93d6-e60289a2ee48" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-hibernate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,11 +88,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.assignment.Main" />
+      <option name="MAIN_CLASS_NAME" value="org.classroom.Main" />
       <module name="10-hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.assignment.*" />
+          <option name="PATTERN" value="org.classroom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
