@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b7acbe8-317b-4532-93d6-e60289a2ee48" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/capgemini-training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/capgemini-training.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-hibernate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +16,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Class" />
         <option value="package-info" />
         <option value="module-info" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,6 +48,7 @@
     "Application.DAOPattern.executor": "Run",
     "Application.JDBCIntroduction.executor": "Run",
     "Application.MAIN.executor": "Run",
+    "Application.Main.executor": "Run",
     "JUnit.CalculatorTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -73,7 +73,7 @@
       <recent name="org.tdd.fundamentals" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="DAOPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DAOPattern" />
       <module name="capgemini-training" />
@@ -84,6 +84,19 @@
     <configuration name="JDBCIntroduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JDBCIntroduction" />
       <module name="capgemini-training" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.assignment.Main" />
+      <module name="10-hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.assignment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="Application.DAOPattern" />
         <item itemvalue="Application.JDBCIntroduction" />
