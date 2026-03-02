@@ -1,8 +1,8 @@
-package org.assignment.dao;
+package org.classroom.dao;
 
 
-import org.assignment.entity.Student;
-import org.assignment.repository.StudentRepository;
+import org.classroom.entity.Student;
+import org.classroom.repository.StudentRepository;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 

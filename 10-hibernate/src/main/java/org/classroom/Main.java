@@ -1,9 +1,9 @@
-package org.assignment;
+package org.classroom;
 
-import org.assignment.dao.StudentDAO;
-import org.assignment.dao.StudentDAOImpl;
-import org.assignment.entity.Student;
-import org.assignment.repository.StudentRepository;
+import org.classroom.dao.StudentDAO;
+import org.classroom.dao.StudentDAOImpl;
+import org.classroom.entity.Student;
+import org.classroom.repository.StudentRepository;
 
 import java.util.List;
 

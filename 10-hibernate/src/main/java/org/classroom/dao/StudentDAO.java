@@ -1,6 +1,6 @@
-package org.assignment.dao;
+package org.classroom.dao;
 
-import org.assignment.entity.Student;
+import org.classroom.entity.Student;
 
 import java.util.List;
 

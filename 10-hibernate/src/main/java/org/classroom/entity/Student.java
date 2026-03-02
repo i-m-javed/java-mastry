@@ -1,4 +1,4 @@
-package org.assignment.entity;
+package org.classroom.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
