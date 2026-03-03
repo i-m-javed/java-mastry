@@ -7,7 +7,7 @@ import jakarta.persistence.Persistence;
 public class Repository {
 
     private static final EntityManagerFactory emf =
-            Persistence.createEntityManagerFactory("javed");
+            Persistence.createEntityManagerFactory("jpa");
 
     public static EntityManager getEntityManager() {
         return emf.createEntityManager();

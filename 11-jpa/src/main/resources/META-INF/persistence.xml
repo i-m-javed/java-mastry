@@ -10,7 +10,10 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
         <!-- ADD THESE -->
-        <class>task.entity.Student</class>
+        <class>classroom.task.entity.Student</class>
+        <class>classroom.task.entity.Laptop</class>
+
+        <class>NOTES.jpaFundamentals.Student</class>
 
 
         <properties>
