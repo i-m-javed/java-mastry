@@ -1,12 +1,14 @@
 package org.assignment.relationships;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
 @Table(name = "departments")
+@Data
 public class Department {
 
     @Id
@@ -36,6 +38,4 @@ public class Department {
         students.add(student);
         student.setDepartment(this);
     }
-
-    // getters and setters
 }

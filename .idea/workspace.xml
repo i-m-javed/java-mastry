@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b7acbe8-317b-4532-93d6-e60289a2ee48" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/03-collections/05-problems/Day 1/CountDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-collections/05-problems/Day 1/CountDigit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/capgemini-training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/capgemini-training.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-collections/05-problems/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-hibernate/src/main/java/org/assignment/hibernateFundamentals/HibernateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/src/main/java/org/assignment/hibernateFundamentals/HibernateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-hibernate/src/main/java/org/assignment/relationships/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/src/main/java/org/assignment/relationships/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-hibernate/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-hibernate/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/target/classes/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +51,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.DAOPattern.executor": "Run",
+    "Application.HibernateDemo.executor": "Run",
     "Application.JDBCIntroduction.executor": "Run",
     "Application.MAIN.executor": "Run",
     "Application.Main.executor": "Run",
@@ -66,6 +73,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/03-collections/05-problems/Java Problem topic-wise" />
+      <recent name="$PROJECT_DIR$/03-collections/05-problems/Day 3" />
       <recent name="$PROJECT_DIR$/03-collections/05-problems/Day 1" />
       <recent name="$PROJECT_DIR$/09-junit5" />
     </key>
@@ -73,10 +82,23 @@
       <recent name="org.tdd.fundamentals" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.HibernateDemo">
     <configuration name="DAOPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DAOPattern" />
       <module name="capgemini-training" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.assignment.hibernateFundamentals.HibernateDemo" />
+      <module name="10-hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.assignment.hibernateFundamentals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,6 +140,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HibernateDemo" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="Application.DAOPattern" />
