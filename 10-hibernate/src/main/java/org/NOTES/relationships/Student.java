@@ -1,11 +1,13 @@
-package org.assignment.hibernateFundamentals;
+package org.NOTES.relationships;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Entity
-@Table(name = "students")
+@Table(name = "students_4")
 @Data
+@AllArgsConstructor
 public class Student {
 
     @Id
@@ -15,6 +17,10 @@ public class Student {
     private String name;
     private int age;
 
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "department_id")
+    private Department department;
+
     public Student() {
     }
 
@@ -22,6 +28,4 @@ public class Student {
         this.name = name;
         this.age = age;
     }
-
-    
 }

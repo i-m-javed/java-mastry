@@ -1,4 +1,4 @@
-package org.assignment.hibernateFundamentals;
+package org.NOTES.hibernateFundamentals;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

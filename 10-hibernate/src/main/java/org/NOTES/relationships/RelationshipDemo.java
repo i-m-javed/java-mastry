@@ -1,21 +1,13 @@
-package org.assignment.relationships;
+package org.NOTES.relationships;
 
 import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.cfg.Configuration;
 
 
 public class RelationshipDemo {
 
     public static void main(String[] args) {
 
-        SessionFactory factory = new Configuration()
-                .configure()
-                .addAnnotatedClass(Student.class)
-                .addAnnotatedClass(Department.class)
-                .buildSessionFactory();
-
-        Session session = factory.getCurrentSession();
+        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 
         try {
 
@@ -36,7 +28,7 @@ public class RelationshipDemo {
             System.out.println("Relationship saved successfully!");
 
         } finally {
-            factory.close();
+            HibernateUtil.getSessionFactory().close();
         }
     }
 }

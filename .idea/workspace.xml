@@ -5,13 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b7acbe8-317b-4532-93d6-e60289a2ee48" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/capgemini-training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/capgemini-training.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-hibernate/src/main/java/org/NOTES/crudOperationAndSession/HibernateCrudDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-jpa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-collections/05-problems/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-hibernate/src/main/java/org/assignment/hibernateFundamentals/HibernateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/src/main/java/org/assignment/hibernateFundamentals/HibernateDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-hibernate/src/main/java/org/assignment/relationships/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/src/main/java/org/assignment/relationships/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-hibernate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-hibernate/src/main/java/org/assignment/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/src/main/java/org/NOTES/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-hibernate/src/main/java/org/assignment/crudOperationAndSession/HibernateCrudDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-hibernate/src/main/java/org/assignment/crudOperationAndSession/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/src/main/java/org/NOTES/crudOperationAndSession/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-hibernate/src/main/java/org/assignment/crudOperationAndSession/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/src/main/java/org/NOTES/crudOperationAndSession/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-hibernate/src/main/java/org/assignment/entityMapping/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/src/main/java/org/NOTES/entityMapping/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-hibernate/src/main/java/org/assignment/entityMapping/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/src/main/java/org/NOTES/entityMapping/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-hibernate/src/main/java/org/assignment/entityMapping/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/src/main/java/org/NOTES/entityMapping/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-hibernate/src/main/java/org/assignment/hibernateFundamentals/HibernateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/src/main/java/org/NOTES/hibernateFundamentals/HibernateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-hibernate/src/main/java/org/assignment/hibernateFundamentals/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/src/main/java/org/NOTES/hibernateFundamentals/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-hibernate/src/main/java/org/assignment/hibernateFundamentals/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/src/main/java/org/NOTES/hibernateFundamentals/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-hibernate/src/main/java/org/assignment/relationships/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/src/main/java/org/NOTES/relationships/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-hibernate/src/main/java/org/assignment/relationships/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/src/main/java/org/NOTES/relationships/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-hibernate/src/main/java/org/assignment/relationships/RelationshipDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/src/main/java/org/NOTES/relationships/RelationshipDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-hibernate/src/main/java/org/assignment/relationships/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/src/main/java/org/NOTES/relationships/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10-hibernate/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/src/main/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10-hibernate/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-hibernate/target/classes/org/assignment/crudOperationAndSession/HibernateCrudDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/target/classes/org/assignment/crudOperationAndSession/HibernateCrudDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-hibernate/target/classes/org/assignment/entityMapping/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/target/classes/org/assignment/entityMapping/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-hibernate/target/classes/org/assignment/hibernateFundamentals/HibernateDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/target/classes/org/assignment/hibernateFundamentals/HibernateDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +68,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.DAOPattern.executor": "Run",
+    "Application.HibernateCrudDemo.executor": "Run",
     "Application.HibernateDemo.executor": "Run",
     "Application.JDBCIntroduction.executor": "Run",
+    "Application.JPAdemo.executor": "Run",
     "Application.MAIN.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.org.assignment.entityMapping.Main.executor": "Run",
     "JUnit.CalculatorTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -73,6 +93,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/10-hibernate/src/main/resources/META-INF" />
       <recent name="$PROJECT_DIR$/03-collections/05-problems/Java Problem topic-wise" />
       <recent name="$PROJECT_DIR$/03-collections/05-problems/Day 3" />
       <recent name="$PROJECT_DIR$/03-collections/05-problems/Day 1" />
@@ -82,20 +103,13 @@
       <recent name="org.tdd.fundamentals" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HibernateDemo">
-    <configuration name="DAOPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DAOPattern" />
-      <module name="capgemini-training" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HibernateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.assignment.hibernateFundamentals.HibernateDemo" />
+  <component name="RunManager" selected="Application.JPAdemo">
+    <configuration name="HibernateCrudDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.NOTES.crudOperationAndSession.HibernateCrudDemo" />
       <module name="10-hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.assignment.hibernateFundamentals.*" />
+          <option name="PATTERN" value="org.NOTES.crudOperationAndSession.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,9 +117,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDBCIntroduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JDBCIntroduction" />
-      <module name="capgemini-training" />
+    <configuration name="HibernateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.NOTES.hibernateFundamentals.HibernateDemo" />
+      <module name="10-hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.NOTES.hibernateFundamentals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JPAdemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NOTES.jpaFundamentals.JPAdemo" />
+      <module name="11-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NOTES.jpaFundamentals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,28 +156,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="09-junit5" />
+    <configuration name="org.NOTES.entityMapping.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.NOTES.entityMapping.Main" />
+      <module name="10-hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.junit.introduction.*" />
+          <option name="PATTERN" value="org.NOTES.entityMapping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.junit.introduction" />
-      <option name="MAIN_CLASS_NAME" value="org.junit.introduction.CalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JPAdemo" />
+        <item itemvalue="Application.org.NOTES.entityMapping.Main" />
+        <item itemvalue="Application.HibernateCrudDemo" />
         <item itemvalue="Application.HibernateDemo" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="Application.DAOPattern" />
-        <item itemvalue="Application.JDBCIntroduction" />
       </list>
     </recent_temporary>
   </component>

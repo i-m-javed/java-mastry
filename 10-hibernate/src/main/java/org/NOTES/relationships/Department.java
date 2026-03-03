@@ -1,4 +1,4 @@
-package org.assignment.relationships;
+package org.NOTES.relationships;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -7,17 +7,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name = "departments")
+@Table(name = "departments_4")
 @Data
 public class Department {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "dept_seq")
-    @SequenceGenerator(
-            name = "dept_seq",
-            sequenceName = "department_sequence",
-            allocationSize = 1
-    )
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private Long id;
 
     private String name;

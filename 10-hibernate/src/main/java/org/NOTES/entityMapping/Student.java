@@ -1,4 +1,4 @@
-package org.assignment.entityMapping;
+package org.NOTES.entityMapping;
 
 import jakarta.persistence.*;
 
@@ -6,7 +6,7 @@ import java.time.LocalDate;
 import java.util.UUID;
 
 @Entity
-@Table(name = "students")
+@Table(name = "students_details")
 public class Student {
 
     @Id
@@ -27,8 +27,8 @@ public class Student {
         ex- 3f50c7a1-6d23-4c19-9d2f-91c7a2b9f4a1
      */
 
-    @Column(name = "student_name", nullable = false, length = 100)
-    private String name;
+    @Column(name = "student_full_name", nullable = false, length = 100)
+    private FullName name;
 
     @Column(nullable = false)
     private int age;
@@ -51,7 +51,7 @@ public class Student {
     public Student() {
     }
 
-    public Student(String name, int age, String email, Department department) {
+    public Student(FullName name, int age, String email, Department department) {
         this.name = name;
         this.age = age;
         this.email = email;

@@ -19,6 +19,8 @@
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
 
 
+        <property name="hibernate.current_session_context_class">thread</property>
+
         <!-- Hibernate Properties -->
         <property name="hibernate.show_sql">true</property> <!-- show sql query in class -->
         <property name="hibernate.format_sql">true</property>

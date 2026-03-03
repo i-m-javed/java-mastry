@@ -1,4 +1,4 @@
-package org.assignment.entityMapping;
+package org.NOTES.entityMapping;
 
 public enum Department {
     COMPUTER_SCIENCE,

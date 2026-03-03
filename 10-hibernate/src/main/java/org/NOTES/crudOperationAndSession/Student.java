@@ -1,4 +1,4 @@
-package org.assignment.crudOperationAndSession;
+package org.NOTES.crudOperationAndSession;
 
 import jakarta.persistence.*;
 import lombok.Data;
