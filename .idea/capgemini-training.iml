@@ -12,6 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Classroom/08-jdbc/notes/05-dao-pattern" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Classroom/10-hibernate/assignment" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Classroom/10-hibernate/classroom" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classroom/12-Springcore/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

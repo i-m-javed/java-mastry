@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="person" class="di.Person">
+        <property name="id" value="1"/>
+        <property name="name" value="Krishna"/>
+        <property name="pan" ref="pan"/>
+    </bean>
+    <bean id="pan" class="di.Pan">
+        <property name="id" value="1"/>
+        <property name="panNumber" value="QBOP2453P"/>
+    </bean>
+    <bean id="pan1" class="di.Pan">
+        <property name="id" value="2"/>
+        <property name="panNumber" value="QBOP2638S"/>
+    </bean>
+    <bean id="pan2" class="di.Pan">
+        <property name="id" value="3"/>
+        <property name="panNumber" value="SFDE3423D"/>
+    </bean>
+    <bean id="listofpan" class="di.ListOfPan">
+        <property name="id" value="1"/>
+        <property name="pans">
+            <list>
+                <ref bean="pan"/>
+                <ref bean="pan1"/>
+                <ref bean="pan2"/>
+            </list>
+        </property>
+    </bean>
+<bean id="kitId" class="diwithmap.Kit">
+    <constructor-arg name="name" value="SG"/>
+    <constructor-arg name="items">
+        <map>
+            <entry key="Bat" value="10000"/>
+            <entry key="Ball" value="3200"/>
+            <entry key="Helmet" value="5400"/>
+        </map>
+    </constructor-arg>
+</bean>
+</beans>
