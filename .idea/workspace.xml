@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b7acbe8-317b-4532-93d6-e60289a2ee48" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-hibernate/target/classes/org/assignment/crudOperationAndSession/HibernateCrudDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-hibernate/target/classes/org/assignment/crudOperationAndSession/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-hibernate/target/classes/org/assignment/entityMapping/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-hibernate/target/classes/org/assignment/entityMapping/FullName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-hibernate/target/classes/org/assignment/entityMapping/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-hibernate/target/classes/org/assignment/entityMapping/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-hibernate/target/classes/org/assignment/hibernateFundamentals/HibernateDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-hibernate/target/classes/org/assignment/hibernateFundamentals/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-hibernate/target/classes/org/assignment/relationships/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-hibernate/target/classes/org/assignment/relationships/RelationshipDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-hibernate/target/classes/org/assignment/relationships/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-hibernate/target/classes/org/classroom/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/target/classes/org/classroom/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-hibernate/target/classes/org/classroom/dao/StudentDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/target/classes/org/classroom/dao/StudentDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-hibernate/target/classes/org/classroom/entity/Student$StudentBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/target/classes/org/classroom/entity/Student$StudentBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-hibernate/target/classes/org/classroom/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/target/classes/org/classroom/entity/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-hibernate/target/classes/org/classroom/repository/StudentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/10-hibernate/target/classes/org/classroom/repository/StudentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-jpa/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/11-jpa/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-jpa/target/classes/NOTES/jpaFundamentals/JPAdemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/11-jpa/target/classes/NOTES/jpaFundamentals/JPAdemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-jpa/target/classes/NOTES/jpaFundamentals/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/11-jpa/target/classes/NOTES/jpaFundamentals/Student.class" afterDir="false" />
-    </list>
+    <list default="true" id="9b7acbe8-317b-4532-93d6-e60289a2ee48" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

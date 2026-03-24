@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: StockManagementProject
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/bankdb
+    username: root
+    password: mundel12345
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
