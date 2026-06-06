@@ -1,4 +1,4 @@
-# Java Mastery (Capgemini Training)
+# Java Master
 
 Welcome to the **Java Mastery** repository! This codebase serves as a comprehensive collection of my learning journey, featuring topic-wise classroom exercises, hands-on assignments, and mini-projects developed during my Java training program.
 
@@ -44,7 +44,7 @@ Real-world problems, mini-projects, and exercises implementing the concepts cove
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/i-m-javed/capgemini-training.git
+   git clone https://github.com/i-m-javed/java-mastery.git
    ```
 2. **Open in IDE:** Open the repository folder in your preferred Java IDE (e.g., IntelliJ IDEA, Eclipse, or VS Code).
 3. **Explore Modules:** Navigate to the specific module (e.g., `Classroom/08-jdbc`) and run the respective `Main` class or test cases.
